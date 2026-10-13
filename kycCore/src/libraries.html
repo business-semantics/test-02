@@ -1,0 +1,8 @@
+<div class="container">
+	<h1 ng-bind-html="vm.banner"></h1>
+	<p>Visit {{vm.visits}}</p>
+	<ul class="list-group">
+		<li class="list-group-item" ng-repeat="library in vm.libraries">{{library}}</li>
+	</ul>
+	<span id="libraries-chart" ng-init="vm.drawChart('#libraries-chart')"></span>
+</div>

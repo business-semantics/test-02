@@ -1,0 +1,48 @@
+{
+  "name": "test-02-angular",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --proxy-config proxy.conf.json",
+    "build": "ng build --deploy-url ../static/",
+    "watch": "ng build --watch --configuration development",
+    "geninterface": "npx swagger-typescript-api --modular -p ./swagger.json -o ./src/interfaces -n myApi.ts",
+    "test": "ng test",
+    "sonar": "sonar-scanner"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^18.2.13",
+    "@angular/common": "^18.2.13",
+    "@angular/compiler": "^18.2.13",
+    "@angular/core": "^18.2.13",
+    "@angular/forms": "^18.2.13",
+    "@angular/localize": "^18.2.13",
+    "@angular/platform-browser": "^18.2.13",
+    "@angular/platform-browser-dynamic": "^18.2.13",
+    "@angular/router": "^18.2.13",
+    "@ng-bootstrap/ng-bootstrap": "^17.0.0",
+    "@popperjs/core": "^2.11.2",
+    "jquery": "^3.7.1",
+    "rxjs": "~6.6.0",
+    "swagger-typescript-api": "^13.0.3",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.12",
+    "@angular/cli": "^18.2.12",
+    "@angular/compiler-cli": "^18.2.13",
+    "@types/jasmine": "~3.8.0",
+    "@types/node": "^12.11.1",
+    "bootstrap": "^5.3.2",
+    "jasmine-core": "~3.8.0",
+    "karma": "^6.3.20",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "sonarqube-scanner": "^4.2.5",
+    "typescript": "~5.4.5"
+  }
+}

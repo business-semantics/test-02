@@ -1,0 +1,43 @@
+{
+	"url": "127.0.0.1/test-02/",
+	"port": 3000,
+	"build": "./static",
+	"vendor": {
+		"css": [],
+		"js": [
+			"./node_modules/jquery/dist/jquery.js",
+			"./node_modules/angular/angular.js",
+			"./node_modules/angular-cookies/angular-cookies.js",
+			"./node_modules/angular-route/angular-route.js",
+			"./node_modules/angular-sanitize/angular-sanitize.js",
+			"./node_modules/ui-bootstrap4/dist/ui-bootstrap-tpls-3.0.7.js",
+			"./node_modules/bootstrap/dist/js/bootstrap.js",
+			"./node_modules/popper.js/dist/umd/popper.js",
+			"./node_modules/jquery-sparkline/jquery.sparkline.js",
+			"./node_modules/d3/d3.js",
+			"./node_modules/d3-force/dist/d3-force.js"
+		]
+	},
+	"css": [],
+	"scss": [
+		"./kycCore/src/assets/styles/scss/app.scss"
+	],
+	"js": [
+		"./kycCore/src/**/*.js"
+	],
+	"html": [
+		"./kycCore/**/src/**/*.html"
+	],
+	"fonts": [
+		"./kycCore/src/assets/styles/**/fonts/*.+(eot|svg|ttf|woff|woff2|otf)"
+	],
+	"images": [
+		"./kycCore/src/assets/**/images/*.+(png|jpg|gif)"
+	],
+	"watchedJs": [
+		"./app/*.js"
+	],
+	"csslint": {},
+	"jshint": {},
+	"htmlhint": {}
+}
