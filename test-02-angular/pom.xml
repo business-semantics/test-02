@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.smartkyc.test</groupId>
 		<artifactId>test-02</artifactId>
-		<version>25.4.10-SNAPSHOT</version>
+		<version>${revision}</version>
 	</parent>
 
 	<artifactId>test-02-angular</artifactId>
